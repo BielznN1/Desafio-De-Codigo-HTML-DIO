@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        img{
+            width: 500px;
+            border: 3px solid gray;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="inicio">O que aprendi sobre HTML</h1>
+        <hr>
+        <h2>Indice</h2>
+            <ul>
+                <li><a href="#o-que-e-html" title="O que é HTML">O que é HTML?</a></li>
+                <li><a href="#atributos" title="Atributos">Atributos</a></li>
+                <li><a href="#tags-textos" title="Tags de textos">Tags de textos</a></li>
+                <li><a href="#tags-listas" title="Tags de listas">Tags de Listas</a></li>
+                <li><a href="#links" title="Links">Links</a></li>
+                <li><a href="#formularios" title="Formulários">Formulários</a></li>
+                <li><a href="#estruturacao-HTML" title="Estruturação do HTML">Estruturação do HTML</a></li>
+                <li><a href="#tags-midias" title="Tags de mídias">Tags de Mídias</a></li>
+            </ul>
+        
+    </header>
+
+    <main>
+            <h2 id="o-que-e-html">O que é HTML?</h2>
+            <small><a href="#inicio">(voltar)</a></small>
+                <p>HTML significa (HyperText Markup Language); em português (Linguagem de marcação de texto).</p>
+                <p>HTML é uma linguagem de marcação, uma linguagem estrutural e através dela você constrói o esqueleto do seu site.</p>
+                <p>O HTML se consiste em duas partes, essas partes são: Cabeça(Head) e Corpo(Body)</p>
+
+            
+            <h3>O que é head?</h3>
+                <p>Head nada mais é que informações que vão carregar antes de exibir ao usuário.</p>
+            
+            <h3>O que é body?</h3>
+                <p>Body é tudo aquilo que irá ficar visivel ao usuário</p><br>
+
+            <h2 id="atributos">Atributos</h2>
+            <small><a href="#inicio">(voltar)</a></small>
+                <p>Atributos são propriedades que uma tag pode ter, temos alguns atributos que são génericos, resumindo qualquer tag pode ter outros mais especificos que apenas algumas tags podem ter.</p>
+                    Um desses atributos é o <strong>ID</strong>, o atributo <strong>ID</strong> é nada mais que um identificador para referenciar um elemento específico na sua página, 
+                    muito utilizado para identificar um elemento no <strong>JavaSript</strong>.</p>
+                <p>Temos outros também como o <strong>style</strong> que serve para estilizar o elemento; e o <strong>class</strong> que serve para padronizar titulos principais no CSS.</p>
+                <p>Temos alguns atributos mais específicos como:
+                    <ul>
+                        <li><strong>Type:</strong> ele é especifico do input, altera o formato daquele input, como apenas para escrever textos ou números;</li> 
+                        <li><strong>Src:</strong> Um atributo especifico para tags de mídia, serve para definir o endereço de uma imagem;</li> 
+                        <li><strong>Width:</strong> Define uma largura ao elemento.</li>
+                    </ul>
+                </p>
+                <p>Não existem apenas esses atributos, existem outros diversos atributos, tanto genéricos como especificos.</p><br>
+
+            <h2 id="tags-textos">Tags de Textos</h2>
+            <small><a href="#inicio">(voltar)</a></small>
+                <p>Essas tags servem justamente para escrever textos, estilizar de maneira simples, adicionar paragrafos, titulos, etc.</p>
+                <ul>
+                    <li><strong>H1:</strong> é o tamanho maior de titulo, podendo diminuir até o h6</li>
+                    <li><strong>P:</strong> define um parágrafo.</li>
+                    <li><strong>Blockquote:</strong> é utilizada para fazer uma citação de outra fonte. ela é seguida de uma tag filha que é a tag (cite).</li>
+                    <li><strong>Mark:</strong> <mark>é um marcador de texto.</mark></li>
+                    <li><strong>Strong:</strong> <strong>deixa o texto em negrito.</strong></li>
+                    <li><strong>U</strong> <u>adiciona um sublinhado ao texto.</u></li>
+                    <li><strong>Sup:</strong> coloca um texto elevado a <sup>outro</sup>.</li>
+                    <li><strong>HR:</strong> cria uma linha separadora entre as linhas do seu site.</li>
+                    <li><strong>Small:</strong> cria um texto <small>pequeno</small>.</li>
+                </ul>
+                <p>Existem outras diversas tags, más essas são algumas mais simples.</p><br>
+
+            <h2 id="tags-listas">Tags de Listas</h2>
+            <small><a href="#inicio">(voltar)</a></small>
+                <p>Essas tags são utilizadas para criar listas ordenadas(ol) e listas não ordenadas(ul), essas listas necessitam de uma tag filha que é a tag (li), pode ser utilizada para fazer sumarios, etc.., más é muito utilizado para estilizações no CSS.</p>
+                <UL>
+                    <li><strong>ol(Listas ordendas):</strong> São listas identificadas por números.<br>
+                    <img width="500px" src="./src/ol.jfif" alt="" title="Listas ordenadas"></li>
+                    
+                    <li><strong>ul(Listas não ordenadas):</strong> São listas identificadas por marcadores.<br>
+                    <img width="500px" src="./src/ul.jfif" alt="" title="Listas não ordenadas"></li>
+                    
+                </UL>
+                <br>
+            
+            <h2 id="links">Links</h2>
+            <small><a href="#inicio">(voltar)</a></small>
+                <p>Utilizamos uma tag especifica seguido de um atributo para criarmos um link, podemos dar um nome a esse link, fazer com que o usuário seja redirecionado a outra página em uma nova guia, ou carregar uma outra página na mesma guia.</p>
+                <p><strong>(a href=""):</strong> o <strong>a</strong> é utilizado para redirecionar o usuário a outro local, o <Strong>href</Strong> é utilizado como atributo dentro da tag <strong>a</strong> para referenciar o local para onde o usuário vai ser redirecionado quando clicar.</p>
+                <img  width="500px" src="./src/a href.png" alt="Links">
+                <ul>
+                    <li><strong>Atributo target:</strong> tem alguns valores, más os dois principais valores são <strong>(_blank)</strong> que serve para abrir o seu link em outra aba, e o <strong>(_self)</strong> que é para abrir o seu link na mesma aba</p></li>
+                    <li><strong>Atributo title:</strong> adiciona uma caixinha quando você passa o mouse em cima de algum elemento que ele esteja incluido.</p></li>               
+                </ul>
+                <p>Utilizamos também a tag (a href="") para redirecionar o usuário para um elemento especifico da sua própria página, basta você criar um ID no elemento que você deseja que o usuário seja redirecionado no lugar de um link.</p>
+                <br>
+
+            <h2 id="formularios">Formulários</h2>
+            <small><a href="#inicio">(voltar)</a></small>
+                <p>Os formulários andam de mãos dadas com o servidor, é uma área onde o usuário vai ter campos para preencher informações, quando clicado no botão de enviar, ele vai pegar os dados do formulário e vai enviar para o servidor.</p>
+                <p>O formulário se consiste na tag form que tem como tag filha a tag input.</p>
+                <p>A tag input te possibilita criar uma área onde o usuário irá responder.</p>
+
+                    <h4>Atributos do Form</h4>
+                         <ul>
+                            <li><strong>Name:</strong> Dá um nom,e ao formulário, é usado para utilizar essa instância no JavaScript.</li>
+                            <li><strong>Method:</strong> Ele tem dois valores possíveis; Get(Pega aquelas informações e exibe na url); Post(Encapsula as informações enviadas).</li>
+                            <li><strong>Action:</strong> Indica para onde essas informações serão enviadas.</li>
+                            <li><strong>Autocomplete on/off:</strong> Esse atributo autocompleta as informações da forma que você tinha enviado aquelas informações; Se estiver no off ele não irá autocompletar.</li>
+                            <li><strong>On(algumacoisa):</strong> Tudo que é on, significa que é um evento.</li>
+                            <li><strong>Onsubmit:</strong> Aqui iremos imbutir um código JavaScript, serve para decidir o que aquele botão vai fazer.</li>
+                        </ul>
+                        <p>Esses são alguns atributos do Form.</p>
+
+                    <h4>Tag Input e Seus Tipos</h4>
+                        <q>Algumas tags inputs podem não funcionar em outros navegadores, por motivos de compatibilidade.</q>
+                        <p>Geralmente utilizamos um label para por o nome do input.</p>
+                        <img src="./src/baixados.jfif" alt="Input">
+                        <ul>
+                            <li><strong>Text:</strong> Cria um campo de texto comum.</li>
+                            <li><strong>Number min/max:</strong> Cria um campo numérico, podemos definir um número minimo e maximo daquela caixa, e utilizando o atributo step você pula quantas casas desejar.</li>
+                            <li><strong>Button:</strong> Tem duas formas, você pode utilizar dentro do input type, ou pode utilizar a tag <strong>button</strong>, esse atributo só cria um botão.</li>
+                            <li><strong>Range:</strong> Cria um campo scroll, você pode utilizar os atributos min/max, value.</li>
+                            <li><strong>E-mail:</strong> Cria um campo para você por um email, se você não implementar um @ ele causa uma mensagem de erro.</li>
+                            <li><strong>Url:</strong> Funciona da mesma forma que o E-mail, más ele é para sites, e requer o http/https.</li>
+                        
+                        </ul>
+                    <p>Esses são alguns dos vários atributos do input.</p>
+
+                    <h4>CheckBox e Radio</h4>
+                        <P>O <strong>checkbox</strong> e o radio são campos de preenchimento de seleção.</P>
+                        <p>O <strong>checkbox</strong> é representado por um quadradinho, e possibilita fazer <mark>multiplas</mark> seleções.</p>
+                        <p>A ideia do <strong>checkbox</strong> é você selecionar múltiplos valores, <mark>porém no momento que você enviar as informações para um servidor, você precisa falar quais valores você selecionou</mark>, geralmente não mandamos um por um.<br>
+                        Outra ideia do <strong>checkbox</strong> é que ele seja apenas uma <mark>variável com 1 ou mais valores</mark></p>
+                        <p>Quando selecionamos os <strong>checkbox</strong> e enviamos, ele irá sempre pegar o ultimo valor que foi selecionado, o servidor não vai entender que você enviou uma lista, <u>uma forma de enviar todas as informações para o servidor você adiciona [] (colchetes) para indicar que é uma lista.</u></p>
+                        <img src="./src/checkbox.jfif" alt="" title="CheckBox">
+
+                        <p>O <strong>radio</strong> é representado por uma bolinha, e possibilita fazer apenas <mark>uma</mark> seleção.</p>
+                        <p>No <strong>radio</strong> se você não adicionar um name, ele vai fazer uma multipla seleção, agora se você adicionar um name, ele irá selecionar apenas um, como é a ideia do próprio <strong>radio</strong>.</p>
+                        <p>Com o atributo disable, ele irá deixar o valor desabilitado.</p>
+                        <img src="./src/radio.jfif" alt="" title="Radio">
+
+                    <h4>Button e seus tipos</h4>
+                        <P>Você terá 3 tipos na tag button</p>
+                        <ul>
+                            <li><strong>button:</strong> você irá criar um tão clicável.</li>
+                            <li><strong>reset:</strong> assim que você clicar ele irá limpar o campo em que ele está incluido no form.</li>
+                            <li><strong>submit:</strong> irá enviar o formulário, e ele valida o enter do teclado.</li>
+                        </ul>
+                        <p>O evento submit tem que esta dentro do form ou seja, onsubmit, para validar se todos os campos estão preenchidos antes de enviar.</p>
+                        <q><strong>É importante validar os campos tanto no frontend quanto no backend, por questões de segurança.</strong></q>
+
+                    <h4>Select e seus tipos</h4>
+                        <p>O select é uma lista pré-definida de certos valores que são pré-definidos, dentro dela vão ter opções para selecionar, ela terá uma tag filha que no caso é a tag <strong>option</strong>.</p>
+                        <p>A tag <strong>option</strong> define a opção que você deseja colocar no sistema, dentro dessa tag você pode colocar um valor nulo e depois ir colocando as seleções que você deseja.</p>
+                        <p>O multiple vai permitir o usuário a selecionar múltiplos itens dentro do select.</p>
+                        <img src="./src/select.jfif" alt="" title="Select">
+                    
+                    <h4>Textarea</h4>
+                        <p>É uma área de texto, como se fosse o campo <strong>text</strong>, más esse tipo permite você escrever um texto com diversas linhas.</p>
+                        <ul>
+                            <li><strong>Atributo rows:</strong> você consegue definir a altura do <strong>textarea</strong>.</li>
+                            <li><strong>Atributo cols:</strong> você define a largura.</li>
+                        </ul>
+                        <p>Más esses atributos não impedem do usuário escrever quantas linhas quiser.</p><br>
+                
+             <h2 id="estruturacao-HTML">Estruturação do HTML</h2>
+             <small><a href="#inicio">(voltar)</a></small>
+                <p>Agora vamos ver algumas tags de estruturação do HTML!</p>
+                    <h4>Div e Span</h4>
+                        <p>Serve para a criação da "planta" do site, são chamadas de tags coringas, utilizamos essas tags para estruturar alguma página web, ela serve para delimitar um espaço e através do CSS podemos manipular esse espaço.</p>
+                        <p>A <strong>div</strong>, serve para dizer onde você vai colocar seu conteúdo, ou seja, você cria uma <strong>div</strong> no seu HTML e dentro dessa <strong>div</strong> você coloca um conteúdo.</p>
+                        <p>A <strong>div</strong> vem como padrão display block, ou seja, ocupa o espaço horizontal inteiro.</p>
+                        <img src="./src/div.jfif" alt="" title="Div">
+                        <p>A tag <strong>span</strong> não ocupa a horizontal inteira, ela não tem um padrão display block, e diferente da tag <strong>div</strong>, o <strong>span</strong> te permite personalizar apenas um trecho.</p>
+                        <img src="./src/span.jfif" alt="" title="Span">
+
+                    <h4>Fieldsets</h4>
+                        <p>É uma tag estrutural, más de uma forma específica, ela te permite delimitar sua página com um caráter mais visual.</p>
+                        <p>Dentro do <strong>fieldset</strong> você usa a tag <strong>legend</strong> para dar tipo um texto a essa área delimitada pelo <strong>fieldset</strong>.</p>
+                        <img src="./src/fieldset.jfif" alt="" title="fieldset">
+
+                    <h4>Iframes</h4>
+                        <q><strong>Tome muito cuidado com ele, pois ele pode afetar a segurança do seu site.</strong></q>
+                        <p>O <strong>iframe</strong> permite o usuário abrir uma janela na sua página com conteúdo de outra página.</p>
+                        <p>O <strong>iframe</strong> permite além de trazer mídias, permite trazer sites inteiros.</p>
+
+                <h2 id="tags-midias">Tags de mídias</h2>
+                    <p>Mídias são tudo aquilo que é relacionado a som e imagem.</p>
+
+                    <h4>Tag img</h4>
+                        <p>Tag de imagens, a tag <strong>img</strong> vem seguida do src, que é o local que sua imagem está, opde ser arquivos locais do seu computador, ou imagens de sites, adicionando o atributo width, ele redimensiona sua imagem.</p>
+                        <img src="./src/img.jfif" alt="" title="img">
+                        <p><strong>Atributos Title e Alt</strong></p>
+                        <ul>
+                            <li><strong>Title:</strong> ele define um balãozinho com um titulo da imagem</li>
+                            <li><strong>Alt:</strong> define uma descrição da imagem, é ótimo para acessibilidade</li>
+                        </ul>
+                    
+                    <h4>Tag áudio</h4>
+                        <p>Tag para audios, é nativo do navegador, você não precisa codificar um player pois ele ja tem um player próprio.</p>
+                        <q><strong>Contém peso semântico, o WebScraping saberá que aquele conteúdo é um áudio.</strong></q>
+                        <p>Esta tag vem seguida de uma tag filha <strong>source</strong> que vai definir o caminho desse áudio.</p>
+                        <blockquote>
+                            <strong>
+                                <i>Caso seu navegador não tiver suporte para essa tag, coloque um aviso de que o navegador não tem compatibilidade com o áudio.</i>
+                            </strong>
+                        </blockquote>
+                        <img src="./src/audio.jfif" alt="" title="Audio">
+                        <ul>
+                            <li>Atributo <strong>controls:</strong> cria um painel de controle de áudio.</li>
+                            <li>Atributo <strong>autoplay:</strong> inicia a música assim que abrir o site.</li>
+                        </ul>
+                    
+                        <h4>Tag video</h4>
+                            <p>Assim como o áudio, é nativo do navegador, segue da mesma forma qe o áudio, temos o tributo controls e é seguida da tag filha <strong>source</strong></p>
+                            <blockquote>
+                                <strong>
+                                    <i>Coloque um aviso caso o navegador não seja compátivel</i>
+                                </strong>
+                            </blockquote>
+                            <p>Você pode fazer um cadeamento, para caso o navegador não seja compatível com um tipo de vídeo, ele vai fazer a leitura da lista(cadeamento) que você fez, e carregar o primeiro que o navegador é compatível.</p>
+                            <img src="./src/video.jfif" alt="" title="Video">
+
+                        <h4>Tag track</h4>
+                            <p>Fica dentro da tag <strong>video</strong>, nada mais é que as legendas do video.</p>
+                            <p>Você coloca <strong>chapters(capítulos)</strong> que nada mais são que arquivos de texto, de que momento até outro momento fala de determinado texto.</p>
+                            <p>Existem arquivos vtt, que são arquivos onde você define quando a legenda começa e quando termina, existem programas que fazem esse tipo de arquivo.</p>
+                            <p>Você tem que definir 3 atributos.</p>
+                            <p><strong>Esses atributos são:</strong></p>
+                            <ul>
+                                <li><strong>SRC:</strong> define o local que o arquivo está.</li>
+                                <li><strong>KIND:</strong> - Descriptions: é o que o leitor de tela vai ler</li>
+                                <li><strong>Captions e Subtitles:</strong> São basicamente a mesma coisa, o subtitles ele fala alguns detalhes da cena, enquanto o captions ele realmente é a legenda da pessoa falando</li>
+                                <li><strong>Metadatas:</strong> são informações adicionais.</li>
+                                <li><strong>Srclang:</strong> você define a linguagem da legenda, você pode ter mais de uma legenda; Adicionando o atributo default, você define a linguagem padrão da legenda.</li>
+                            </ul>
+                            <img src="./src/track.png" alt="" title="Track">
+
+                                    
+
+
+
+                        
+            </main>
+            
+    <footer>
+        <hr>
+
+
+        <h2>Fontes</h2>
+        <ul>
+            <Li><blockquote><a href="https://forum.freecodecamp.org/t/radio-button-elements-within-the-form-tag/438869"><abbr title="Freecodecamp">FCC</abbr></a></blockquote></Li>
+            <li><blockquote><a href="https://www.semrush.com/blog/ahref-link/"><abbr title="Semrush">SRH</abbr></a></blockquote></li>
+            <li><blockquote><a href="https://www.wikitechy.com/step-by-step-html-tutorials/html-introduction"><abbr title="Wikitechy">WKT</abbr></a></blockquote></li>
+            <li><blockquote><a href="https://www.w3schools.com/tags/tag_html.asp"><abbr title="W3Cshools">W3C</abbr></a></blockquote></li>
+        </ul>
+    </footer>
+</body>
+</html>
